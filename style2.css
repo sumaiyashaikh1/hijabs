@@ -165,7 +165,7 @@ body
         body {font-family: Verdana, sans-serif;}
         .mySlides {display: none;}
         img {vertical-align: middle;}
-
+        
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
@@ -214,6 +214,8 @@ body
   font-size: 35px;
   cursor: pointer;
 }
+
+
   footer
 {
   clear:both;
