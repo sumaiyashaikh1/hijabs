@@ -149,6 +149,23 @@ body
     }
   }
 
+<style>
+            input[type=text] {
+  width: 60%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: black;
+  padding: 12px 20px 12px 40px;
+  }
+
+
+        
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+        
   footer
 {
   clear:both;
