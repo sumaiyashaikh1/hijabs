@@ -16,35 +16,25 @@ header
     background-size: cover;
 }
 
-.menu
+.navbar-brand img
 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 0 100px;
-  background: #262626;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.menu .logo
-{
-
+    height: 29px;
+    width: 29px;
 }
 
 .text h4
 {
-    font-size: 80px;
+    font-size: 70px;
     color: rgb(248, 240, 240);
-    padding-top: 190px;
+    padding-top: 150px;
     text-align: center;
     text-transform: capitalize;
 }
 .text p
 {
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(235, 232, 232);
-    padding-top: 10px;
+    padding-top: 6px;
     text-align: center;
 }
 
@@ -56,8 +46,8 @@ header
     display: inline-block;
     background-color: #8f6375e1;
     border-radius: 15px;
-    font-size: 20px;
-    margin-left: 680px;
+    font-size: 15px;
+    margin-left: 600px;
     margin-top: 20px;
   }
   

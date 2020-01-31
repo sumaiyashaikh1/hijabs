@@ -163,7 +163,13 @@ body
  body {font-family: Verdana, sans-serif;}
         .mySlides {display: none;}
         img {vertical-align: middle;}
-
+p{
+  text-align:bold;
+  font-family: roman times;
+    font-size: 50px;
+    float:left;
+    
+}
 
   footer
 {

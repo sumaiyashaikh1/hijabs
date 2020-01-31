@@ -3,37 +3,78 @@
     <head>
         <title>Hijabi's Site</title>
         <link href="style.css" rel="stylesheet" type="text/css">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-    </head>
-    <body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ </head>
+<body>
      <header>
-      <div class="menu">
-        <div class="logo">
-          <a href="index.html">
-          <img src="logo_pic.jpg">
-        </a>
-        </div>
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img src="logo_pic.jpg" alt="logo">
+  </a>
 
-        <nav>
-          <ul>
-            <li><a href="#">Hijabs</a></li>
-            <li><a href="#">Burkhas</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">Accessories</a></li>
-          </ul>
-          <div class="menu-toggle">
-           <i class="fa fa-bars" aria-hidden="true"></i>
-          </div>
-        </nav>
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="hijabs.html" id="navbardrop" data-toggle="dropdown">
+        hijabs
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="partywear.html">Party Wear</a>
+        <a class="dropdown-item" href="casual.html">Casual Wear</a>
       </div>
-     </header>
+    </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="burkhas.html" id="navbardrop" data-toggle="dropdown">
+        Burkhas
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="partywear1.html">Party Wear</a>
+        <a class="dropdown-item" href="casual1.html">Casual Wear</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html">Contact</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="feedback.html">Reviews</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="accessories.html">Accessories</a>
+      </li>
+      <li>
+       <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+      </form></li>
+    </ul>
+  </div>
+</nav>
   <marquee>
         <font color="white"; font-size=100px;>stock are limited hurry up order now....</font>
-      </marquee><br><br><br>
-</div>>
+      </marquee>
+      <br
+      ><br>
+      <br>
          <!-- Title of page-->
          <div class="text">
             <h4>Welcome to Store</h4>
@@ -41,6 +82,7 @@
             <a href="#show" >Check Out</a>
         </div>
         </div>
+</header>
 
        <!-- Photo Grid header--> 
         <div class="header" id="show">
