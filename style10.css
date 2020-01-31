@@ -61,14 +61,6 @@ header
 .text a:hover, a:active {
     background-color: rgba(165, 11, 44, 0.918);
 }
-.navbar
-{
-    width: 100%;
-    overflow: hidden;
-    height: 80px;
-    line-height: 70px;
-    background-color: #8f637596;
-}
 .container
 {
     width: 90%;
