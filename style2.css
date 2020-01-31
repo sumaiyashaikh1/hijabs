@@ -10,6 +10,7 @@ body
    margin: 0;
    font-family: calibri;
 }
+
 header
 {
     width: 100%;
@@ -26,13 +27,12 @@ header
 
 .text h4
 {
-    font-size: 70px;
-    color: white;
-    padding-top: 150px;
+    font-size: 80px;
+    color: rgb(248, 240, 240);
+    padding-top: 190px;
     text-align: center;
     text-transform: capitalize;
 }
-
 .text a:link, a:visited {
     color: white;
     padding: 10px 18px;
@@ -41,7 +41,7 @@ header
     display: inline-block;
     background-color: #8f6375e1;
     border-radius: 15px;
-    font-size: 17px;
+    font-size: 18px;
     margin-left: 600px;
     margin-top: 20px;
   }
@@ -60,9 +60,9 @@ header
 
 /* Create four equal columns that sits next to each other */
 .column {
-    -ms-flex: 20%; /* IE10 */
+    -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    max-width: 20%;
+    max-width: 25%;
     padding: 0 4px;
   }
   
@@ -91,7 +91,7 @@ header
   }
 
 <style>
-  input[type=text] {
+            input[type=text] {
   width: 60%;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -114,12 +114,14 @@ header
   padding: 20px;
   color:#fff;
 }
+
 p
 {
   font-size: 10px;
   font-family: calibri;
   font-weight: 2px;
 }
+
 
 h5
 {
