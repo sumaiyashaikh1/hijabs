@@ -60,9 +60,9 @@ header
 
 /* Create four equal columns that sits next to each other */
 .column {
-    -ms-flex: 25%; /* IE10 */
+    -ms-flex: 20%; /* IE10 */
     flex: 25%;
-    max-width: 25%;
+    max-width: 20%;
     padding: 0 4px;
   }
   
@@ -91,7 +91,7 @@ header
   }
 
 <style>
-            input[type=text] {
+  input[type=text] {
   width: 60%;
   box-sizing: border-box;
   border: 2px solid #ccc;
