@@ -3,36 +3,74 @@
     <head>
         <title>Hijabi's Site</title>
         <link href="style3.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-      <div id="main">
-          <div class="navbar">
-            <div class="container">
-             <div class="logo_div">
-                 <img src="logo_pic.jpg" alt="logo_pic" class="logo">
-               </div>
-               
-               <div class="navbar_links">
-                   <ul class="menu">
-                       <li><a href="hijabs.html">Hijabs</a></li>
-                       <li><a href="burkhas.html">Burkhas</a></li>
-                       <li><a href="about.html">About</a></li>
-                       <li><a href="contact.html">Contact</a></li>
-                       <li><a href="feedback.html">Reviews</a></li>
-                       <li><a href="accessories.html">Accessories</a></li>
-        SEARCH PRODUCT  <input type="text" class="form-control" placeholder="Search">
-                    </ul>
-               </div>
-         </div>
-         </div>
+   <header>
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html">
+    <img src="logo_pic.jpg" alt="logo">
+  </a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+       <li class="nav-item">
+        <a class="nav-link" href="hijabs.html">Hijabs</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="hijabs.html" id="navbardrop" data-toggle="dropdown">
+        Burkhas
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="partywear1.html">Party Wear</a>
+        <a class="dropdown-item" href="casual1.html">Casual Wear</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="feedback.html">Reviews</a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="accessories.html">Accessories</a>
+      </li>
+      <li>
+       <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </li>
+    </ul>
+  </div>
+</nav>
 
          <!-- Title of page-->
          <div class="text">
             <h4>Welcome to hijab n more</h4>
-            <p> hijabs are available.</p>
-            
         </div>
-        </div>
+</header>
+
+        <br>
         <p><center><br>
 A burqa or burka also known as a chadaree in Afghanistan or a paranja in Central Asia, is an enveloping outer garment which covers the body and the face that is worn by women in some Islamic traditions. The Arab version of the burqa is called the boshiya, and is usually black in color.
 
@@ -42,11 +80,13 @@ The burqa and other types of face veils have been attested since pre-Islamic tim
 
 There are currently 15 nations that have banned the burqa, including Austria, Denmark, France, Belgium, Tajikistan, Latvia, Bulgaria, Cameroon, Chad, the Republic of the Congo, Gabon, the Netherlands, China, and Sri Lanka.
 </center></p>
+<br>
+<br>
 
        <table style="width:100%">
 
         <tr>
-            
+             <h5>Casuals And Party Wear Hijabs</h5>
             <th><a href="casual1.html"><img src="burkhas1.jpg" style="width:300px;height:300px;" />  <br> <br> </a> </th>
             <th><a href="casual1.html"><img src="burkhas2.jpg" style="width:300px;height:300px;"/> <br> <br> </a> </th>
             <th><a href="partywear1.html"><img src="burkhas3.jpg" style="width:300px;height:300px;"/>  <br>  <br> </a> </th>
